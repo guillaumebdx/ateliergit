@@ -45,6 +45,7 @@ html {
     padding-top: 50px;
     font-size: 1.7rem;
     text-transform: uppercase;
+    text-shadow: 1px 1px #3B424E;
 }
 
 .hero .hero-foot {
@@ -104,19 +105,10 @@ html {
     color: ghostwhite;
 }
 
-.main-content .section-dark.resume {
-    height: 400px;
-    padding-top: 100px;
-}
-
 @media (max-width: 599px) {
     .main-content .section-dark.resume {
         padding-top: 75px;
     }
-}
-
-.main-content .section-dark.resume .title {
-    padding: 20px;
 }
 
 .main-content .section-dark.resume button {
@@ -253,7 +245,6 @@ html {
     bottom: 0;
     margin-top: 1.25rem;
     padding: 0;
-    height: 80px;
     line-height: 25px;
     text-align: center;
     background: #3B424E;
@@ -366,4 +357,7 @@ code {
 }
 .column {
     padding: 1.25rem;
+}
+iframe {
+    height: 400px;
 }
