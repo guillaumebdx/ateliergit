@@ -251,17 +251,18 @@ html {
 
 .footer {
     bottom: 0;
-
+    margin-top: 1.25rem;
     padding: 0;
     height: 80px;
     line-height: 25px;
     text-align: center;
-    background: #F76C6C;
-    color: black;
+    background: #3B424E;
+    color: ghostwhite;
 }
 
 .footer a {
     padding: 0rem 1rem 1rem 1rem;
+    color : ghostwhite;
 }
 
 .footer a i {
@@ -350,10 +351,19 @@ body.preloader-site {
     border-bottom-right-radius: 6px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
+.tictac-card {
+    background: #F76C6C;
+    border-radius: 6px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
 .inline-block {
     display: inline-block;
     color: black;
 }
 code {
     padding: .12em .12em .12em;
+}
+.column {
+    padding: 1.25rem;
 }
