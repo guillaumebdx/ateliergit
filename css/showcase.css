@@ -99,8 +99,9 @@ html {
 }
 
 .main-content .section-dark {
-    background-color: #f0f3f5;
+    background-color: #3B424E;
     padding: 60px 0px;
+    color: ghostwhite;
 }
 
 .main-content .section-dark.resume {
@@ -255,7 +256,7 @@ html {
     height: 80px;
     line-height: 25px;
     text-align: center;
-    background: #fdb758;
+    background: #F76C6C;
     color: black;
 }
 
@@ -282,7 +283,7 @@ html {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(31, 44, 108, 0.65);
+    background-color: #F76C6C;
     color: white;
     cursor: pointer;
     border-radius: 50%;
@@ -295,7 +296,7 @@ html {
 }
 
 #toTop:hover {
-    background-color: #43485c;
+    background-color: #C8C8C8;
 }
 
 ::-webkit-scrollbar {
@@ -333,11 +334,13 @@ body.preloader-site {
 }
 
 .white
-{color:ghostwhite}
+{
+    color:ghostwhite !important;
+}
 
 .tic-card {
-    background: #fff1de;
+    background: #F99797;
 }
 .tac-card {
-    background: #fbdddb;
+    background: #FFD64F;
 }
