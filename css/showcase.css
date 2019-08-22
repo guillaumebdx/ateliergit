@@ -340,7 +340,20 @@ body.preloader-site {
 
 .tic-card {
     background: #F99797;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 .tac-card {
     background: #FFD64F;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.inline-block {
+    display: inline-block;
+    color: black;
+}
+code {
+    padding: .12em .12em .12em;
 }
