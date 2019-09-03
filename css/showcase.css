@@ -361,3 +361,9 @@ code {
 iframe {
     height: 400px;
 }
+.footer-demo {
+    position: absolute;
+    height: 150px;
+    background-color: red;
+    width: 100%;
+}
